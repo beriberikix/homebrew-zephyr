@@ -18,7 +18,7 @@ class Zephyr < Formula
   depends_on "libmagic"
   
   def install
-    system "./setup.sh"
+    system "./setup.sh -t -c"
   end
 
   test do
